@@ -29,7 +29,10 @@ VendorIQ-Analytics/
 │                                                                 hypothesis testing, confidence intervals)
 │
 ├── 04_PowerBI/
-│   └── VendorIQ_Dashboard.pbix                                (3-page executive dashboard)
+│   ├── VendorIQ_Dashboard.pbix                                (3-page executive dashboard)
+│   ├── Executive_Overview.png
+│   ├── Vendor & Procurement Analytics.png
+│   └── Inventory & Product Analytics.png
 │
 └── 05_Documentation/
     └── business_conclusion_report.pdf                          (full report — objectives, SQL/EDA/stats
@@ -49,8 +52,13 @@ Six transactional tables (`sales`, `purchases`, `purchase_prices`, `begin_invent
 Three pages built off `04_PowerBI/VendorIQ_Dashboard.pbix`:
 
 1. **Executive Overview** — top-line revenue, inventory value, active vendors, turnover
+   <p><img src="04_PowerBI/Executive_Overview.png" alt="Executive Overview Dashboard" width="700"></p>
+
 2. **Vendor & Procurement Analytics** — purchase cost trend, vendor spend concentration, average price/quantity
+   <p><img src="04_PowerBI/Vendor%20%26%20Procurement%20Analytics.png" alt="Vendor & Procurement Analytics Dashboard" width="700"></p>
+
 3. **Inventory & Product Analytics** — beginning/ending inventory value, top products by stock and sales, vendor revenue share
+   <p><img src="04_PowerBI/Inventory%20%26%20Product%20Analytics.png" alt="Inventory & Product Analytics Dashboard" width="700"></p>
 
 ## Key Findings
 
