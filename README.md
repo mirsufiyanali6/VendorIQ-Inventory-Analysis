@@ -4,10 +4,11 @@ End-to-end retail analytics project: raw transactional data → SQL business log
 
 ## The Business Problem
 
-A multi-store liquor retail business tracks purchasing, sales, and inventory across 129 vendors and 268K products, but each of those areas is analyzed in isolation. Leadership has no single, statistically validated view of which vendors actually drive profit, whether bulk purchasing is worth it, or how much working capital is tied up in slow-moving stock. Full write-up: [05_Documentation/business_conclusion_report.pdf](05_Documentation/business_conclusion_report.pdf).
+A multi-store liquor retail business tracks purchasing, sales, and inventory across 129 vendors and 268K products, but each of those areas is analyzed in isolation. Leadership has no single, statistically validated view of which vendors actually drive profit, whether bulk purchasing is worth it, or how much working capital is tied up in slow-moving stock. Full write-up: [05_Documentation/Business_Problem.md](05_Documentation/Business_Problem.md).
 
 ## What's in this repo
 
+```
 VendorIQ-Analytics/
 ├── README.md
 ├── LICENSE
@@ -38,6 +39,7 @@ VendorIQ-Analytics/
     ├── KPI_Definitions.md                                      (every dashboard metric, formula + purpose)
     └── business_conclusion_report.pdf                          (full report — objectives, SQL/EDA/stats
                                                                    summary, dashboards, insights, recommendations)
+```
 
 ## Data Model
 
@@ -69,6 +71,8 @@ Full detail with every number in [05_Documentation/business_conclusion_report.pd
 - **High-performing vendors sustain meaningfully higher margins** — 36.88% vs. 29.63% for the rest of the supplier base (p < 0.001).
 - **901 products (9.33%) are high-value inventory outliers**, tying up $44.85M in working capital — led by premium spirits brands.
 - Reliable, large-sample benchmarks: **30.55% average vendor profit margin** (95% CI: 29.43%–31.67%) and **$12.05 average purchase price** (95% CI: $12.03–$12.07).
+
+See [05_Documentation/KPI_Definitions.md](05_Documentation/KPI_Definitions.md) for the formula and business purpose behind every metric above.
 
 ## Tech Stack
 
