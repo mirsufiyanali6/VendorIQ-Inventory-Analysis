@@ -8,7 +8,6 @@ A multi-store liquor retail business tracks purchasing, sales, and inventory acr
 
 ## What's in this repo
 
-```
 VendorIQ-Analytics/
 ├── README.md
 ├── LICENSE
@@ -35,9 +34,10 @@ VendorIQ-Analytics/
 │   └── Inventory_and_Product_Analytics.png
 │
 └── 05_Documentation/
+    ├── Business_Problem.md                                     (background, objectives, workstreams)
+    ├── KPI_Definitions.md                                      (every dashboard metric, formula + purpose)
     └── business_conclusion_report.pdf                          (full report — objectives, SQL/EDA/stats
                                                                    summary, dashboards, insights, recommendations)
-```
 
 ## Data Model
 
